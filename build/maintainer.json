@@ -397,6 +397,9 @@
     "/bbcnewslabs/news": [
         "elxy"
     ],
+    "/bdys/:caty?/:type?/:area?/:year?/:order?": [
+        "nczitzk"
+    ],
     "/behance/:user/:type?": [
         "MisteryMonster"
     ],
@@ -2875,9 +2878,6 @@
     "/mox/:category?": [
         "nczitzk"
     ],
-    "/mp4er/:type?/:caty?/:area?/:year?/:order?": [
-        "nczitzk"
-    ],
     "/mpaypass/main/:type?": [
         "zhuan-zhu"
     ],
@@ -3974,15 +3974,6 @@
         "SunShinenny"
     ],
     "/startuplatte/:category?": [
-        "nczitzk"
-    ],
-    "/stcn/data/:id?": [
-        "nczitzk"
-    ],
-    "/stcn/kuaixun/:id?": [
-        "nczitzk"
-    ],
-    "/stcn/stock/:id?": [
         "nczitzk"
     ],
     "/stcn/:id?": [
