@@ -1655,6 +1655,9 @@
         source:[ "/col",
           "/" ],
         target:(params, url) => `/bast/${new URL(url).href.match(/bast\.net\.cn\/(.*)/)[1].replace(/\/index\.html/, '')}` } ] },
+  "bbc.com":{ _name:"BBC",
+    ".":[ { title:"News",
+        docs:"https://docs.rsshub.app/routes/traditional-media#bbc" } ] },
   "bbcnewslabs.co.uk":{ _name:"BBC News Labs",
     ".":[ { title:"News",
         docs:"https://docs.rsshub.app/routes/programming#bbc-news-labs",
@@ -7477,7 +7480,7 @@
   "latepost.com":{ _name:"晚点 Latepost",
     ".":[ { title:"报道",
         docs:"https://docs.rsshub.app/routes/new-media#wan-dian-latepost-bao-dao",
-        source:"/",
+        source:"*",
         target:(params, url) => {
                     url = new URL(url);
                     const proma = url.searchParams.get('proma');
